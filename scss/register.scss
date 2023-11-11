@@ -1,0 +1,183 @@
+@import "reset";
+
+body{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.container{
+    max-width: 1312px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.register-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register-acc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-acc > p{
+    color: #191919;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 46px; 
+    margin-bottom: 118px;
+}
+
+.register-acc__warapper{
+    width: 100%;
+    max-width: 770px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.register-acc__input{
+    max-width: 300px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.input-name__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-name{
+    width: 100%;
+    width: 138px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #8F8F8F;
+    background: #F7F7F7;
+    color: #191919;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.input-avatar{
+    width: 100%;
+    width: 138px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #8F8F8F;
+    background: #F7F7F7;
+    color: #191919;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.input-emil{
+    width: 297px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #8F8F8F;
+    background: #F7F7F7;
+    color: #191919;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.input-pasword{
+    width: 297px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #8F8F8F;
+    background: #F7F7F7;
+    color: #191919;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.register-text{
+    max-width: 291px;
+    height: 50px;
+    color: #767676;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px; 
+    margin-top: 26px;
+    margin-bottom: 17px;
+}
+
+.register-btn{
+    display: inline-flex;
+    padding: 15px 92.797px 15px 91.203px;
+    align-items: flex-start;
+    border-radius: 24px;
+    border: 1px solid #C7C7C7;
+    background:#797979;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.register-btn:hover{
+    border: 1px solid #797979;
+    color: #797979;
+    background-color:#C7C7C7 ;
+    transform: scale(0.9);
+}
+
+.register-acc__line{
+    width: 1px;
+    height: 400px;
+    background: #CCC;
+}
+
+.register-acc__google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-btn__google{
+    width: 300px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+
+.register-btn__google:hover{
+    color: #797979;
+    transform: scale(0.9);
+    background-color: rgb(204, 202, 202);
+    border: 1px solid rgb(139, 139, 139);
+}
+
+.register-info{
+    color: #41413F;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}

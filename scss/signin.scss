@@ -1,0 +1,221 @@
+@import "reset";
+
+body{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.container{
+    max-width: 1312px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin > h3 {
+    color: #151E27;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.signin-info{
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 45px;
+}
+
+.signin-info > a {
+    text-decoration: none;
+}
+
+.signin-input{
+    width: 100%;
+    max-width: 360px;
+}
+
+.signin-email{
+    width: 355px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #8F8F8F;
+    background: #F7F7F7;
+    color: #191919;
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.signin-pasword{
+    width: 355px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #8F8F8F;
+    background: #F7F7F7;
+    color: #191919;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 16px;
+}
+
+.signin-btn{
+    display: flex;
+    width: 355px;
+    padding: 15px 0px 13px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #3665F3;
+    background: #3665F3;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.signin-btn:hover{
+    transform: scale(0.9);
+    background-color: #7596f8;
+}
+
+.signin-line{
+    width: 355px;
+    height: 1px;
+    background: #C7C7C7;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 38px;
+    margin-top: 41px;
+}
+
+.signin-facebook{
+    display: flex;
+    width: 355px;
+    height: 48px;
+    padding: 4px 82.331px 0.813px 5px;
+    align-items: center;
+    gap: 43.516px;
+    border-radius: 24px;
+    background: #4267B2;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    border: none;
+}
+
+.signin-facebook:hover{
+    transform: scale(0.9);
+    background-color: #1f57c9;
+}
+
+.signin-google{
+    display: flex;
+    width: 355px;
+    height: 48px;
+    padding: 14px 89.566px 13px 14px;
+    align-items: flex-start;
+    gap: 59.75px;
+    border-radius: 24px;
+    border: 1px solid #888;
+    background: #FFF;
+    color: #444;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.signin-google:hover{
+    transform: scale(0.9);
+    background-color: #8F8F8F;
+    color: #fff;
+}
+
+.signin-apple{
+    display: flex;
+    width: 355px;
+    height: 48px;
+    padding: 3px 97.8px 14px 3px;
+    align-items: flex-end;
+    gap: 64.984px;
+    border-radius: 24px;
+    border: 1px solid #444;
+    background: #FFF;
+    color: #444;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.signin-apple:hover{
+    transform: scale(0.9);
+    background-color: #8F8F8F;
+    color: #fff;
+}
+
+.signin-text{
+    color: #000;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.signin-text1{
+    color: #000;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+.signin-warning{
+    width: 355px;
+    height: 148px;
+    border: 1px solid #3665F3;
+    background: #3665F3;
+    margin: auto;
+}
+
+.signin-warning > p {
+    width: 266.122px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-info2{
+    color: #41413F;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 23px;
+}
